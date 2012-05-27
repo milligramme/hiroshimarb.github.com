@@ -99,15 +99,13 @@
 
 <p>他にも外部ファイルからコードを取り込む方法やGistから取得する方法もあります。</p>
 
-<pre><code>File /Users/eiel/Study/hiroshima.rb/hiroshimarb.github.com/source/downloads/code/path/to/file could not be found
+<pre><code>{% include_code [title] [lang:language] path/to/file %}
 </code></pre>
 
 <p><a href="http://octopress.org/docs/plugins/include-code/">http://octopress.org/docs/plugins/include-code/</a></p>
 
-<pre><code>&lt;div&gt;&lt;script src='https://gist.github.com/.js?file='&gt;&lt;/script&gt;
+<pre><code>{% gist gist-id %}
 </code></pre>
-
-<p><noscript><pre><code>&lt;html&gt;&lt;body&gt;You are being &lt;a href=&quot;https://github.com/gist&quot;&gt;redirected&lt;/a&gt;.&lt;/body&gt;&lt;/html&gt;</code></pre></noscript></div></p>
 
 <p><a href="http://octopress.org/docs/plugins/gist-tag/">http://octopress.org/docs/plugins/gist-tag/</a></p>
 
