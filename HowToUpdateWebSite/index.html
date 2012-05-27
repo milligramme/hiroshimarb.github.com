@@ -84,9 +84,11 @@ hiroshima.rb のメンバーが本サイトを誰でも更新できるように�
   </header>
   
   <p>このサイトは <a href="http://octopress.org/">Octopress</a> を使用して作成されています。
-hiroshima.rb のメンバーが本サイトを誰でも更新できるように更新方法を記録しています。Octopress を利用する際にも参考になるかも?みんなでどんどんRubyのTipsを増やしていきましょう。</p>
+hiroshima.rb のメンバーが本サイトを誰でも更新できるように更新方法を記録しています。Octopress を利用する際にも参考になるかも?</p>
 
-<p>利用には ruby 1.9.2 以降が必要になります。rbenvを利用したインストールがおすすめです。</p>
+<p>みんなでどんどんRubyのTipsを増やしていきましょう。</p>
+
+<p>ruby 1.9.2 以降が必要になります。rbenvを利用したインストールがおすすめです。</p>
 
 <h1>リポジトリの取得</h1>
 
@@ -154,8 +156,24 @@ hiroshima.rb のメンバーが本サイトを誰でも更新できるように�
 
 <p>公開には、以下のコマンドを使用します。</p>
 
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake gen_deploy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>作成したページを実際に表示してちゃんと公開されているか確認しましょう。</p>
+
+<h1>変更をコミットしよう。</h1>
+
+<p>ページの公開はできましたが、他の人と更新を共有できるようにcommitしましょう。
+<code>git</code>の使い方になってしまうので、ここでは簡便に書きます。</p>
+
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake gen_deploy</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
+</span><span class='line'>git commit -m "更新の内容"
+</span><span class='line'>git push</span></code></pre></td></tr></table></div></figure>
 
 
 
