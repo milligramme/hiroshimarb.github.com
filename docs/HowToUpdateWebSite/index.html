@@ -19,7 +19,7 @@ hiroshima.rb のメンバーが本サイトを誰でも更新できるように�
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://hiroshimarb.github.com/HowToUpdateWebSite">
+  <link rel="canonical" href="http://hiroshimarb.github.com/docs/HowToUpdateWebSite">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -95,7 +95,7 @@ hiroshima.rb のメンバーが本サイトを誰でも更新できるように�
 <p>更新するためにはまず github からデータを取得する必要があります。
 作業をするディレクトリで以下のようにします。</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git@github.com:hiroshimarb/hiroshimarb.github.com.git
 </span><span class='line'><span class="nb">cd </span>hiroshimarb.github.com
@@ -136,7 +136,7 @@ hiroshima.rb のメンバーが本サイトを誰でも更新できるように�
 <p>ページを作成したら、どのように表示されるかプレビューしてみましょう。
 以下のコマンドでサーバを立ち上げることができます。</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>rake preview
 </span></code></pre></td></tr></table></div></figure>
 
@@ -148,15 +148,16 @@ hiroshima.rb のメンバーが本サイトを誰でも更新できるように�
 <p>ページを作成したら、インターネットに接続している誰もが閲覧できるように公開しましょう。
 まずは公開先の設定をしましょう。</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake 'setup_github_pages[git@github.com:hiroshimarb/hiroshimarb.github.com.git]'</span></code></pre></td></tr></table></div></figure>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake <span class="s1">&#39;setup_github_pages[git@github.com:hiroshimarb/hiroshimarb.github.com.git]&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
 <p>これは一度だけ行えば大丈夫です。</p>
 
 <p>公開には、以下のコマンドを使用します。</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>rake gen_deploy
 </span></code></pre></td></tr></table></div></figure>
 
@@ -168,15 +169,20 @@ hiroshima.rb のメンバーが本サイトを誰でも更新できるように�
 <p>ページの公開はできましたが、他の人と更新を共有できるようにcommitしましょう。
 <code>git</code>の使い方になってしまうので、ここでは簡便に書きます。</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git add .
-</span><span class='line'>git commit -m "更新の内容"
-</span><span class='line'>git push</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git add .
+</span><span class='line'>git commit -m <span class="s2">&quot;更新の内容&quot;</span>
+</span><span class='line'>git push
+</span><span class='line'><span class="o">{</span>% endcodeblock %<span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
+<h1>さらなる情報</h1>
 
+<p><a href="/docs/octopress">Octopressのメモ</a></p>
 
   
     <footer>
@@ -200,7 +206,7 @@ hiroshima.rb のメンバーが本サイトを誰でも更新できるように�
       
         <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://hiroshimarb.github.com/HowToUpdateWebSite/index.html" data-via="" data-counturl="http://hiroshimarb.github.com/HowToUpdateWebSite/index.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://hiroshimarb.github.com/docs/HowToUpdateWebSite/index.html" data-via="" data-counturl="http://hiroshimarb.github.com/docs/HowToUpdateWebSite/index.html" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>

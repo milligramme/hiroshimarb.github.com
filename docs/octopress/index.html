@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hiroshima.rb</title>
+  <title>Octopressについて - Hiroshima.rb</title>
   <meta name="author" content="Hiroshima.rb">
 
   
-  <meta name="description" content="Hiroshima.rbについて 「Hiroshima.rb」はプログラミング言語Rubyの地域コミュニティです。
-広島はもちろん、地域に関係なくRubyをもっと盛り上げることを目標に、「ついでに情報交換やスキル向上ができたらいいなぁ。」ぐらいのゆるいコミュニティです。
-「楽しいRuby」 &hellip;">
+  <meta name="description" content="Octopressについて May 27th, 2012 このサイトはOctopressを利用して構築しています。
+更新の際に役立つように調べたことのメモを残しておきます。 コードを書きたい コードを書きたい場合は github や pandoc &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://hiroshimarb.github.com">
+  <link rel="canonical" href="http://hiroshimarb.github.com/docs/octopress">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -67,60 +66,88 @@
       <div>
 <article role="article">
   
-  <p><img src="https://github.com/milligramme/hiroshimarb_logo/raw/master/hiroshimarb-horizontal.png" width="500" height="100" /></p>
-
-<h2>Hiroshima.rbについて</h2>
-
-<p>「Hiroshima.rb」はプログラミング言語Rubyの地域コミュニティです。
-広島はもちろん、地域に関係なくRubyをもっと盛り上げることを目標に、「ついでに情報交換やスキル向上ができたらいいなぁ。」ぐらいのゆるいコミュニティです。
-「楽しいRuby」をモットーに参加者みんなで育ていくコミュニティを目指してます。</p>
-
-<h2>イベント</h2>
-
-<p>5月と1月を除いた毎月第一土曜日に勉強会やもくもくする会を行っています。</p>
-
-<h2>参加資格</h2>
-
-<ul>
-<li>Rubyが好きな人</li>
-<li>Rubyを使っている人</li>
-<li>Rubyに興味ある人</li>
-<li>Rubyで作られたアプリを使用している人</li>
-<li>Ruby以外のLL(Lightweight Language)に興味があったり、使っている人</li>
-<li>プログラミングに関係なくRubyが好きな人</li>
-<li>とにかく広島を盛り上げたい人- 広島に限らず地域コミュニティーを盛り上げたい人</li>
-</ul>
+  <header>
+    <h1 class="entry-title">Octopressについて</h1>
+    <p class="meta">
 
 
-<h2>コンテンツ</h2>
-
-<ul>
-<li><a href="/docs/HowToUpdateWebSite/">hiroshima.rbのサイトを更新しよう</a></li>
-</ul>
 
 
-<h2>ロゴについて</h2>
 
-<p>ロゴの作成には <a href="http://flavors.me/milligramme/">milligramme</a> さんにお願いしました。
-<code>Ruby</code>に広島の県花である<code>もみじ</code>を加えています。</p>
 
-<p><img src="https://github.com/milligramme/hiroshimarb_logo/raw/master/hiroshimarb-square.png" width="320" height="320" /></p>
 
-<h2>リンク</h2>
 
-<ul>
-<li><a href="https://groups.google.com/forum/?hl=ja&amp;fromgroups#!forum/hiroshimarb">メーリングリスト</a></li>
-<li><a href="https://sites.google.com/site/hiroshimarb/">旧ウェブサイト</a></li>
-</ul>
+  
 
+
+<time datetime="2012-05-27T20:17:00+09:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time></p>
+  </header>
+  
+  <p>このサイトは<a href="http://octopress.org/">Octopress</a>を利用して構築しています。
+更新の際に役立つように調べたことのメモを残しておきます。</p>
+
+<h1>コードを書きたい</h1>
+
+<p>コードを書きたい場合は github や pandoc で使えるようなバッククオートを3つでくくる方法が使えます。 角括弧の部分は省略することができます。</p>
+
+<pre><code>``` [language] [title] [url] [link text]
+コード
+```
+</code></pre>
+
+<p><a href="http://octopress.org/docs/plugins/backtick-codeblock/">http://octopress.org/docs/plugins/backtick-codeblock/</a></p>
+
+<p>他にも外部ファイルからコードを取り込む方法やGistから取得する方法もあります。</p>
+
+<pre><code>File /Users/eiel/Study/hiroshima.rb/hiroshimarb.github.com/source/downloads/code/path/to/file could not be found
+</code></pre>
+
+<p><a href="http://octopress.org/docs/plugins/include-code/">http://octopress.org/docs/plugins/include-code/</a></p>
+
+<pre><code>&lt;div&gt;&lt;script src='https://gist.github.com/.js?file='&gt;&lt;/script&gt;
+</code></pre>
+
+<p><noscript><pre><code>&lt;html&gt;&lt;body&gt;You are being &lt;a href=&quot;https://github.com/gist&quot;&gt;redirected&lt;/a&gt;.&lt;/body&gt;&lt;/html&gt;</code></pre></noscript></div></p>
+
+<p><a href="http://octopress.org/docs/plugins/gist-tag/">http://octopress.org/docs/plugins/gist-tag/</a></p>
+
+<p>その他のプラグインの情報は<a href="http://octopress.org/docs/blogging/plugins/">ここに</a>あります。</p>
+
+<h1>Octopressの構造</h1>
+
+<p>Octopress は <a href="https://github.com/mojombo/jekyll">GitHub Pages</a> の上で利用できる <a href="https://github.com/mojombo/jekyll">Jekyll</a> の上に作成されています。(Gemfileをみれば gem &#8216;jekyll&#8217; の記述があります。)
+Octopressがデプロイする流れは sourecs -> public -> <em>deploy とファイルを生成します。
+soruces -> public を作成する際には jekyll コマンドが使用されます。 </em>deploy ディレクトリは 専用の git リポジトリがあり、公開用のブランチを作成するのに使用されます。</p>
+
+<p>Github Page を Jekyll で作成した場合、html を作成するのは githubの役割になりますが、Octopressを使う場合はローカルで生成することになるのでこの時にいろいろすることができることが特徴になってくるのではないかと思います。</p>
+
+<h1>ページを ディレクトリ名/index.md で作成する理由</h1>
+
+<p><code>rake preview</code> で表示した場合は気になりませんが、githubなどでホスティングする場合のURLで .html がないURLにした場合都合が良いです。</p>
 
   
     <footer>
-      
+      <p class="meta">
+        
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-27T20:17:00+09:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time>
+        
+      </p>
       
         <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://hiroshimarb.github.com/index.html" data-via="" data-counturl="http://hiroshimarb.github.com/index.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://hiroshimarb.github.com/docs/octopress/index.html" data-via="" data-counturl="http://hiroshimarb.github.com/docs/octopress/index.html" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
