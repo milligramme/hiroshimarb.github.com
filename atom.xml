@@ -4,7 +4,7 @@
   <title><![CDATA[Hiroshima.rb]]></title>
   <link href="http://hiroshimarb.github.com/atom.xml" rel="self"/>
   <link href="http://hiroshimarb.github.com/"/>
-  <updated>2012-06-02T14:53:18+09:00</updated>
+  <updated>2012-06-02T15:20:11+09:00</updated>
   <id>http://hiroshimarb.github.com/</id>
   <author>
     <name><![CDATA[Hiroshima.rb]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<p>広島Ruby勉強会 #20 をします。
 事前参加申し込みは <a href="http://partake.in/events/4b8bf09d-e772-40dc-b912-14bdb856f3c9">こちら</a> でできます。</p>
 
-<p>勉強会の内容はまだ未定ですが、以下のものを予定しています。</p>
+<p>勉強会の内容はまだ未定ですが、以下を予定しています。</p>
 
 <ul>
 <li><p>Octopress で Hiroshima.rb のサイトを更新しよう</p>
