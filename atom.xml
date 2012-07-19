@@ -4,7 +4,7 @@
   <title><![CDATA[Hiroshima.rb]]></title>
   <link href="http://hiroshimarb.github.com/atom.xml" rel="self"/>
   <link href="http://hiroshimarb.github.com/"/>
-  <updated>2012-07-07T15:02:15+09:00</updated>
+  <updated>2012-07-19T14:25:24+09:00</updated>
   <id>http://hiroshimarb.github.com/</id>
   <author>
     <name><![CDATA[Hiroshima.rb]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[hiroshmiarb-22]]></title>
+    <link href="http://hiroshimarb.github.com/blog/2012/07/19/hiroshmiarb-22/"/>
+    <updated>2012-07-19T14:22:00+09:00</updated>
+    <id>http://hiroshimarb.github.com/blog/2012/07/19/hiroshmiarb-22</id>
+    <content type="html"><![CDATA[<p>こんにちは。
+広島Ruby勉強会 #22 を開催します。</p>
+
+<p>事前の参加申し込みは <a href="http://partake.in/events/9944892a-597b-400b-a59d-8dc000ecddf7">Partake</a> からお願いします。
+とくに内容が決定していないので、参加者の意見を柔軟に取り入れられたらと思います。</p>
+
+<h1>予定している内容</h1>
+
+<ul>
+<li>未定</li>
+</ul>
+
+
+<table>
+<tr><td>日時  </td><td>2012/08/04 14:00-18:00</td></tr>
+<tr><td>場所: </td><td>広島市青少年センター 美術室</td>
+</table>
+
+
+
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?ie=UTF8&amp;q=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;fb=1&amp;gl=jp&amp;hq=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;hnear=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;cid=0,0,1617776994803704521&amp;ll=34.397546,132.453762&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;brcurrent=3,0x355a98a0a350bb7d:0xee91cc6dbc9ae5d8,0&amp;output=embed"></iframe>
+
+
+<br /><small><a href="http://maps.google.co.jp/maps?ie=UTF8&amp;q=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;fb=1&amp;gl=jp&amp;hq=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;hnear=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;cid=0,0,1617776994803704521&amp;ll=34.397546,132.453762&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;brcurrent=3,0x355a98a0a350bb7d:0xee91cc6dbc9ae5d8,0&amp;source=embed" style="color:#0000FF;text-align:left">地図</a></small>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[広島Ruby勉強会 #21]]></title>
