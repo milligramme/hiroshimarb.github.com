@@ -4,7 +4,7 @@
   <title><![CDATA[Hiroshima.rb]]></title>
   <link href="http://hiroshimarb.github.com/atom.xml" rel="self"/>
   <link href="http://hiroshimarb.github.com/"/>
-  <updated>2012-09-19T13:53:58+09:00</updated>
+  <updated>2012-10-07T09:19:02+09:00</updated>
   <id>http://hiroshimarb.github.com/</id>
   <author>
     <name><![CDATA[Hiroshima.rb]]></name>
@@ -27,7 +27,20 @@
 <h1>予定している内容</h1>
 
 <ul>
-<li>たまにはリファレンスをよみなおそう。その3</li>
+<li>たまにはリファレンスをよみなおそう。その3(Module)</li>
+<li>今月の活動報告
+
+<ul>
+<li>Hiroshima.rb-gem</li>
+</ul>
+</li>
+<li>LT
+
+<ul>
+<li>negの紹介</li>
+<li>Paas入門</li>
+</ul>
+</li>
 <li>OSC広島発表内容確認</li>
 </ul>
 
