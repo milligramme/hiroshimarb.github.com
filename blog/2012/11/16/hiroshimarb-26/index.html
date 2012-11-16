@@ -5,12 +5,15 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Railsメモ - Hiroshima.rb</title>
+  <title>広島Ruby勉強会 #026 - Hiroshima.rb</title>
   <meta name="author" content="Hiroshima.rb">
 
   
-  <meta name="description" content="Railsメモ May 27th, 2012 rails new app-name -d mysql -T rspec and cucumber https://github.com/rspec/rspec-rails
-https://github.com/sporkrb/spork-rails &hellip;">
+  <meta name="description" content="こんにちは。
+広島Ruby勉強会 #026 を開催します。 事前の参加申し込みは Partake からお願いします。
+発表者は随時募集中です。 予定している内容 たまにはリファレンスをよみなおそう。その5(未定)
+今月の活動報告
+募集中 日時 2012/12/01(土) 14:00-18:00 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +22,7 @@ https://github.com/sporkrb/spork-rails &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://hiroshimarb.github.com/docs/Rails">
+  <link rel="canonical" href="http://hiroshimarb.github.com/blog/2012/11/16/hiroshimarb-26">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -64,98 +67,15 @@ https://github.com/sporkrb/spork-rails &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Railsメモ</h1>
-    <p class="meta">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-27T21:57:00+09:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time></p>
-  </header>
-  
-  <p>rails new <code>app-name</code> -d mysql -T</p>
-
-<h1>rspec and cucumber</h1>
-
-<p>https://github.com/rspec/rspec-rails
-https://github.com/sporkrb/spork-rails
-https://github.com/cucumber/cucumber-rails/</p>
-
-<p><code>Gemfile</code></p>
-
-<p>group :test, :development do
-  gem &#8220;rspec-rails&#8221;, &#8220;~> 2.0&#8221;
-  gem &#8220;spork-rails&#8221;
-end</p>
-
-<p>group :test do
-  gem &#8216;cucumber-rails&#8217;, :require => false
-  gem &#8216;database_cleaner&#8217;
-end</p>
-
-<p><code>cmd</code>
-rails g rspec:install
-spock rspec &#8211;bootstrap
-rails g cucumber:install &#8211;spork</p>
-
-<p>Spork.preforkの中に Sprok 実行開始時の処理を
-Spork.each_runの中に rspec の毎回実行時の処理を記述</p>
-
-<h1>factory_girl</h1>
-
-<p>gem &#8216;factory_girl_rails&#8217;</p>
-
-<p>spec_helperに</p>
-
-<p>  FactoryGirl.factories.clear
-  FactoryGirl.reload</p>
-
-<h1>helperのテスト</h1>
-
-<p>rspec-tag_matchersが良さそう</p>
-
-<p>https://github.com/dcuddeback/rspec-tag_matchers
-http://rdoc.info/github/dcuddeback/rspec-tag_matchers/master/RSpec/TagMatchers</p>
-
-<h1>一般適なrspecのテンプレ</h1>
-
-<p>describe クラス名 do
-  describe メソッド名 do</p>
-
-<pre><code>subject { オブジェクト.メソッド }
-context オブジェクトの状態 do
-  let(オブジェクト) { オブジェクト作成 }
-  context 引数 do
-    let(引数) {  }
-    it { }
-  end
-end
-</code></pre>
-
-<p>  end
-end</p>
-
-<h1>入門書を越えて</h1>
-
-<p>Railsは入門書の読み終えてからもなかなかとっつきにくい部分が多いです。
-一番代みたいドキュメントは公式の<a href="http://guides.rubyonrails.org/">Rails Guide</a>です。英語ですが、なんとなくわかる部分も多いので、ときどき眺めるようにすると良いです。
-最近は <code>ri</code> も高速に動作し、情報も多いので参考になります。</p>
-
-  
-    <footer>
+    
+      <h1 class="entry-title">広島Ruby勉強会 #026</h1>
+    
+    
       <p class="meta">
         
-        
 
 
 
@@ -167,13 +87,78 @@ end</p>
   
 
 
-<time datetime="2012-05-27T21:57:00+09:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time>
+<time datetime="2012-11-16T14:28:00+09:00" pubdate data-updated="true">Nov 16<span>th</span>, 2012</time>
         
       </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>こんにちは。
+広島Ruby勉強会 #026 を開催します。</p>
+
+<p>事前の参加申し込みは <a href="http://partake.in/events/75e5e01b-f586-474b-a6a3-d66ff4f12a40">Partake</a> からお願いします。
+発表者は随時募集中です。</p>
+
+<h1>予定している内容</h1>
+
+<ul>
+<li>たまにはリファレンスをよみなおそう。その5(未定)</li>
+<li>今月の活動報告</li>
+<li>募集中</li>
+</ul>
+
+
+<table>
+<tr><td>日時  </td><td>2012/12/01(土) 14:00-18:00</td></tr>
+<tr><td>場所: </td><td>広島市青少年センター 美術室</td>
+</table>
+
+
+
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?ie=UTF8&amp;q=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;fb=1&amp;gl=jp&amp;hq=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;hnear=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;cid=0,0,1617776994803704521&amp;ll=34.397546,132.453762&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;brcurrent=3,0x355a98a0a350bb7d:0xee91cc6dbc9ae5d8,0&amp;output=embed"></iframe>
+
+
+<br /><small><a href="http://maps.google.co.jp/maps?ie=UTF8&amp;q=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;fb=1&amp;gl=jp&amp;hq=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;hnear=%E5%BA%83%E5%B3%B6%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;cid=0,0,1617776994803704521&amp;ll=34.397546,132.453762&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;brcurrent=3,0x355a98a0a350bb7d:0xee91cc6dbc9ae5d8,0&amp;source=embed" style="color:#0000FF;text-align:left">地図</a></small>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
       
-        <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://hiroshimarb.github.com/docs/Rails/index.html" data-via="" data-counturl="http://hiroshimarb.github.com/docs/Rails/index.html" >Tweet</a>
+
+<span class="byline author vcard">Posted by <span class="fn">Hiroshima.rb</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-16T14:28:00+09:00" pubdate data-updated="true">Nov 16<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/勉強会/'>勉強会</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://hiroshimarb.github.com/blog/2012/11/16/hiroshimarb-26/" data-via="" data-counturl="http://hiroshimarb.github.com/blog/2012/11/16/hiroshimarb-26/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -183,9 +168,14 @@ end</p>
   
 </div>
 
+    
+    <p class="meta">
       
-    </footer>
-  
+        <a class="basic-alignment left" href="/blog/2012/10/15/hiroshimarb-25/" title="Previous Post: 広島Ruby勉強会 #25">&laquo; 広島Ruby勉強会 #25</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
